@@ -15,4 +15,15 @@
     <PackageReference Include="KSPBuildTools" Version="1.1.1" />
     <PackageReference Include="KSPCommunityLib" Version="0.1.1" />
   </ItemGroup>
+  <ItemGroup>
+ 	<Reference Include="netstandard">
+	  <HintPath>$(KSPBT_GameRoot)/KSP_x64_Data/Managed/netstandard.dll</HintPath>
+      <Private>False</Private>
+	</Reference>
+	
+	<Reference Include="mscorlib">
+	  <HintPath>$(KSPBT_GameRoot)/KSP_x64_Data/Managed/mscorlib.dll</HintPath>
+      <Private>False</Private>
+	</Reference>
+  </ItemGroup>
 </Project>

@@ -33,6 +33,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="../SCANsat.Unity/SCANsat.Unity.csproj" />
+	<Reference Include="netstandard">
+	  <HintPath>$(KSPBT_GameRoot)/KSP_x64_Data/Managed/netstandard.dll</HintPath>
+      <Private>False</Private>
+	</Reference>
+	
+	<Reference Include="mscorlib">
+	  <HintPath>$(KSPBT_GameRoot)/KSP_x64_Data/Managed/mscorlib.dll</HintPath>
+      <Private>False</Private>
+	</Reference>
   </ItemGroup>
   <ItemGroup>
 	<AssemblyMetadata Include="HotReload" Value="true" />
